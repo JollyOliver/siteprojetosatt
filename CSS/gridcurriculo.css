@@ -1,0 +1,49 @@
+#info-geral, #skill-set, #formacoes {
+    display: grid;
+    width: 70%;
+}
+/* Div Info Geral */
+#info-geral {
+    grid-template: repeat(3, auto) / repeat(2, auto);
+}
+#foto-perfil {
+    grid-area: 1 / 1 / 3 / 1;
+}
+#identificacao {
+    grid-area: 1 / 2 / 2 / 2;
+}
+#contato {
+    grid-area: 2 / 2 / 3 / 2;
+}
+#area-interesse{
+    grid-area: 3 / 2 / 3 / 2;
+}
+/* Div Skill Set */
+#skill-set {
+    grid-template: auto / repeat(2, auto);
+}
+#soft-skills {
+    grid-area: 1 / 1 / 1 / 2;
+}
+#hard-skills {
+    grid-area: 1 / 2 / 1 / 2;
+}
+/* Div Formações */
+#formacoes {
+    grid-template: repeat(5, auto) / auto;
+}
+#lista-formacoes {
+    grid-area: 1 / 1 / 2 / 1;
+}
+#anchieta {
+    grid-area: 2 / 1 / 3 / 1;
+}
+#uninter-jogos {
+    grid-area: 3 / 1 / 4 / 1;
+}
+#uninter-ti {
+    grid-area: 4 / 1 / 5 / 1;
+}
+#devquest {
+    grid-area: 5 / 1 / 5 / 1;
+}
